@@ -63,7 +63,7 @@
 .inputTodo p {
     background-color: #fafafa;
     padding: 12px 15px;
-    margin: 8px 0;
+    margin: 8px 5px;
     border-radius: 10px;
     width: 100%;
     font-size: 16px;
@@ -77,4 +77,15 @@
 .inputTodo p:hover {
     background-color: #f1f1f1;
     border-color: #ddd;
+}
+
+.todoItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f9f9f9;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
 }
