@@ -1,0 +1,80 @@
+/* Основний контейнер */
+.inputTodo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid #e2e2e2;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Вхідне поле */
+.inputTodo input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    background-color: #f8f8f8;
+    transition: background-color 0.3s ease;
+}
+
+/* Коли поле отримує фокус */
+.inputTodo input:focus {
+    border-color: #3b9e5e;
+    background-color: #e9f7ec;
+}
+
+/* Кнопка додавання */
+.inputTodo button {
+    padding: 12px 18px;
+    background-color: #3b9e5e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+/* Кнопка в стані hover */
+.inputTodo button:hover {
+    background-color: #2d7a46;
+}
+
+/* Кнопка в стані активності */
+.inputTodo button:active {
+    background-color: #1f522f;
+}
+
+/* Список справ */
+.inputTodo p {
+    background-color: #fafafa;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 16px;
+    color: #555;
+    border: 1px solid #e2e2e2;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+/* Ефект при наведенні на елемент списку */
+.inputTodo p:hover {
+    background-color: #f1f1f1;
+    border-color: #ddd;
+}
